@@ -1,0 +1,46 @@
+.daterange {
+  display: inline-block;
+  padding: 5px;
+  background: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.daterange .daterange-label {
+  padding: 0.7rem 0.75rem 0.7rem 1.5rem;
+}
+
+.daterange .daterange-label .daterange-title {
+  display: inline-block;
+  font-weight: 400;
+  color: #aaaeb8;
+}
+
+.daterange .daterange-label .daterange-date {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.m--font-brand {
+  color: #716aca;
+}
+
+.daterange .daterange-btn {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  background-color: #716aca;
+  border-color: #716aca;
+  border-radius: 50%;
+  transition: all 0.15s ease-in-out;
+}
+
+.daterange .daterange-btn:hover {
+  color: #fff;
+  background-color: #564ec0;
+  border-color: #4d44bd;
+}
+
+.daterange .daterange-btn i {
+  vertical-align: middle;
+}
